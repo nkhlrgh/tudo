@@ -106,6 +106,15 @@ a:hover {
   transition: opacity 300ms ease-in-out;
 }
 
+.grad-btn {
+  background: linear-gradient(90deg, #14bbea 0%, #009dc9 100%);
+  color: var(--white);
+}
+
+.grad-btn:hover {
+  color: var(--white);
+}
+
 .primary-button-bg:hover {
   color: var(--white);
   opacity: 0.75;
